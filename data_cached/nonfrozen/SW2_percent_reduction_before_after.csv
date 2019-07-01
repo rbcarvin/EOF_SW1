@@ -1,0 +1,10 @@
+"response","response_clean","before_r2","after_r2","perc_diff","sd_perc_diff","median_diff","fifth_diff","ninetyfifth_diff","diff_sum","load_before","load_after","pval","perc_diff_frozen","sd_perc_diff_frozen","perc_diff_nonfrozen","sd_perc_diff_nonfrozen"
+"suspended_sediment_load_pounds","SS load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"chloride_load_pounds","Chloride load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"no2_no3n_load_pounds","NO2 + NO3 load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"ammonium_n_load_pounds","Ammonium load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"tkn_unfiltered_load_pounds","TKN load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"orthophosphate_load_pounds","Orthophosphate load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"tp_unfiltered_load_pounds","TP load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"total_nitrogen_load_pounds","TN load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"organic_nitrogen_load_pounds","Org N load (pounds)",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
