@@ -33,7 +33,7 @@ test_site <- 'trt' # If a paired study design, the abbreviation of the test, or 
 site_tz <- "America/Chicago" # all data should be converted (or called into R) to the same time zone. 
               # Indicate here which timezone that is - e.g. central "America/Chicago" or central without DST "Etc/GMT+6"
 
-datetime_format <- "%m/%d/%y %H:%M" # format of all your datetime columns. For example, if your datetimes are formatted with
+datetime_format <- "%Y-%m-%d %H:%M" # format of all your datetime columns. For example, if your datetimes are formatted with
                                        # "mm/dd/yyyy HH:MM:SS" the coded format of the date in R is "%m/%d/%Y %H:%M:%S"
 
 date_format <- "%m/%d/%Y" # format of date variables in provided data files. For example, the default in Excel is
@@ -113,18 +113,18 @@ event_over_thaw <- 'non-frozen' # For subevents that span a thaw, you may have t
 ##########################################################################
 
 ######## rain data ###########
-rain_site <- NA  # site number for rain gage if pulling from NWIS, 'NA' if providing data file
-rain_file <- 'sw1_cleaned_precip_correctdates.csv' # filename of rain file, 'NA' if pulling from NWIS. Should be a csv and include ".csv" at end of file name.
+rain_site <- NA #441624088045601  # site number for rain gage if pulling from NWIS, 'NA' if providing data file
+rain_file <- 'SW1_Precip_AQexport_EntireRecord.csv' # filename of rain file, 'NA' if pulling from NWIS. Should be a csv and include ".csv" at end of file name.
 
 ######## field activity data #########
-activity_file <- 'SW2_Field Management data.csv' # filename of field activity log and should include .csv extension
+activity_file <- 'ESW1 Field Management data.csv' #'SW2_Field Management data.csv' # filename of field activity log and should include .csv extension
 nut_additions_keywords <- c('manure', 'fertilizer') # words used to describe any manure and/or fertilizer additions 
                                                     # to the field. These should be keywords found in the "activity_group" column
 cultivation_keywords <- c('cultivation') # words to describe tillage and other field cultivation activities
                                          # this word will be found in the "activity_group"
 planting_keywords <- c('planting') # words to describing planting activities, found in "activity_group" column
-harvest_keywords <- 'harvest' # words describing cutting/harvest activities, found in "activity_group" column.
-cutting_keywords <- 'cutting' # harvest should describe taking of non-perennial crops. Cutting should describe taking of cover crops
+harvest_keywords <- c('harvest') # words describing cutting/harvest activities, found in "activity_group" column.
+cutting_keywords <- c('cutting') # harvest should describe taking of non-perennial crops. Cutting should describe taking of cover crops
                               # that will regrow without replanting (e.g., alfalfa). Use NA if no cuttings took place on field.
 
 # discharge data
